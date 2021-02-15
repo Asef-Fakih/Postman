@@ -26,7 +26,13 @@ Replace (use the var) <br>
 pm.variables.replaceIn("Hi, my name is {{variable}}");
 ```
 ## Working with Requests
-The request URL:
+The request URL: <br/>
+```
+const req = pm.request.url.getHost()
+const query = pm.request.url.getPathWithQuery()
+const raw = pm.request.url.getRaw()
+console.log(req, query, raw)
+```
 <img src = 'url_req.png'/>
 
 # Postman common pre requests
