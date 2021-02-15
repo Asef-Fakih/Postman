@@ -8,7 +8,7 @@
 - Data
 - Local
 ### Get , Set, unset format
-'''For collectionVariables, environment, global use pm. format'''
+For collectionVariables, environment, global use pm. format <br>
 Get <br>
 ```
 pm.variable.get('variable') 
