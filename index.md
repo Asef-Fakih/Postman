@@ -27,7 +27,7 @@ pm.variables.replaceIn("Hi, my name is {{variable}}");
 ```
 ## Working with Requests
 The request URL:
-<img = 'url_req.png'/>
+<img src = 'url_req.png'/>
 
 # Postman common pre requests
 
