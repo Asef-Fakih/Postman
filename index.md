@@ -10,19 +10,19 @@
 ### Get , Set, unset format
 Get <br>
 ```
-pm.variable.get('variable')  ''''For collectionVariables, environment, global use pm. format <br>
+pm.variable.get('variable')  ''''For collectionVariables, environment, global use pm. format
 ```
 Set <br>
 ```
-pm.variable.set('variable')  <br>
+pm.variable.set('variable') 
 ```
 Unset <br>
 ```
-pm.variable.unset('variable')  <br>
+pm.variable.unset('variable')
 ```
 Replace (use the var) <br>
 ```
-pm.variables.replaceIn("Hi, my name is {{variable}}"); <br>
+pm.variables.replaceIn("Hi, my name is {{variable}}");
 ```
 
 
