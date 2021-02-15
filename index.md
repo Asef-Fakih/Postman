@@ -68,8 +68,20 @@ console.log(body, method)
 ```
 <img src = 'Body_req.png'/>
 
-
-
+### The response Body <br/>
+```
+var code = pm.response.code.valueOf()
+var status = pm.response.status.valueOf()
+var h1 = pm.response.headers.get('Content-Length')
+var time = pm.response.responseTime.valueOf()
+var size = pm.response.responseSize.valueOf()
+var text = pm.response.text.toString()
+var jason = pm.response.toJSON()
+console.log(code , status, h1, time, size )
+//console.log(text)
+//console.log(jason)
+```
+<img src = 'Response.png'/>
 
 # Postman common pre requests
 
