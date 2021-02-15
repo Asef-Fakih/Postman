@@ -25,9 +25,11 @@ Replace (use the var) <br>
 ```
 pm.variables.replaceIn("Hi, my name is {{variable}}");
 ```
+## WOrking with Requests
+The request URL:
 
 
-## Postman common pre requests
+# Postman common pre requests
 
-## Writing Postman Assertions
-## Chaining Postman Requests
+# Writing Postman Assertions
+# Chaining Postman Requests
