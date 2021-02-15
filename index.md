@@ -9,13 +9,13 @@
 - Local
 ### Get , Set, unset format
 Get <br>
-pm.variable.get('variable')  ''For collectionVariables, environment, global use pm. format''
+pm.variable.get('variable')  ''''For collectionVariables, environment, global use pm. format <br>
 Set <br>
-pm.variable.set('variable')  
+pm.variable.set('variable')  <br>
 Unset <br>
-pm.variable.unset('variable')  
-Replace (use the var)
-pm.variables.replaceIn("Hi, my name is {{variable}}");
+pm.variable.unset('variable')  <br>
+Replace (use the var) <br>
+pm.variables.replaceIn("Hi, my name is {{variable}}"); <br>
 
 
 ## Postman common pre requests
