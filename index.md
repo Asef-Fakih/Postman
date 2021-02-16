@@ -83,7 +83,47 @@ console.log(code , status, h1, time, size )
 ```
 <img src = 'Response.png'/>
 
+### The Send Request
+//check if response valid
+pm.sendRequest('https://www.google.com', (error, response) => {
+  if (error) {
+    console.log(error);
+  } else {
+  console.log(response);
+  }
+});
+<img src = 'Send Request.png'/>
+
 # Postman common pre requests
+
+### Get the bearer token in the pre-req script 
+```
+
+const postRequest = {
+  url: 'https://demo.ferppi.fikuro.fi/api/authenticate',
+  method: 'POST',
+  header: {
+    'Content-Type': 'application/json',
+    'User-Agent' : 'PostmanRuntime/7.26.10',
+    'Accept' : '*/*',
+    'Accept-Encoding' : 'gzip, deflate, br',
+    'Connection' : 'keep-alive',
+  },
+    body: {
+    mode: 'raw',
+    raw: JSON.stringify({
+  "username": "test.asef",
+  "password": "deftone1"
+})
+  }
+};
+pm.sendRequest(postRequest, (error, response) => {
+  console.log(error ? error : response.json());
+  console.log(response.code)
+  console.log(response.status)
+
+});
+```
 
 # Writing Postman Assertions
 # Chaining Postman Requests
